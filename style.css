@@ -42,3 +42,179 @@ section h1, nav a, footer h1{
     font-weight: normal;
     text-transform: uppercase;
 }
+
+header{
+    background: url("images/line.png") repeat-x bottom;
+    position: relative;
+}
+
+#main_title{
+    display: inline-block;
+}
+
+header h1{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+
+nav{
+    display: inline-block;
+    text-align: right;
+    width: 500px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color:black;
+}
+
+nav a:hover{
+    font-weight: bolder;
+    border-bottom: 3px solid red;
+}
+
+#banner_image{
+    background: url("images/sanfrancisco.jpg") no-repeat;
+    background-size: 100% 200px;
+    height:200px;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 4px black;
+    position: relative;
+}
+
+#banner_description{
+    position: absolute;
+    bottom: 0px;
+    background: rgb(24,24,24,0.8);
+    color: white;
+    width: 99.5%;
+    height:33px;
+    padding-top: 15px;
+    padding-left: 5px; 
+    border-radius: 0px 0px 8px 8px;
+   
+}
+
+.red_button{
+    background: url("images/red_background.png") repeat-x;
+    border-radius: 8px;
+    display: inline-block;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+    right:10px;
+    bottom: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-size: contain;
+    font-size: 1.1em;
+}
+
+article, aside{
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+}
+
+article{
+    width:  70%;
+    margin-right: 15px;
+}
+
+aside{
+    width: 20%;
+    background-color: #706b64;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px black; 
+    position: relative;
+}
+
+aside h1{
+    text-align: center;
+}
+
+aside img{
+    margin-right: 5px;
+}
+
+aside p:last-child{
+    text-align: center;
+}
+
+#zozor{
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#arrow{
+    position: absolute;
+    top:30%;
+    left:-12px;
+}
+
+.icon_pin{
+    vertical-align: middle;
+}
+
+footer{
+    background: url("images/top.png") no-repeat center top, url("images/line.png") repeat-x top;
+}
+
+#my_tweet, #my_pictures, #my_friends {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; 
+    margin-top:25px;
+    width:30%;
+}
+
+#my_pictures img{
+    border: 1px solid black;
+    
+}
+
+
+#my_friends ul{
+    display: inline-block;
+    list-style-image: url("images/external_link.png");
+    padding-left: 0px;
+    padding-right: 40px;
+    margin-top: 0px;
+}
+
+#my_friends a{
+    text-decoration: none;
+    color: #760001;
+}
